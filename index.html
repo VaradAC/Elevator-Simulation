@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lift Simulation</title>
+    <link rel="Stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="btn-container">
+        <button class="btn" id="add-floor-btn">Add Floor</button>
+        <button class="btn" id="remove-floor-btn">Remove Floor</button>
+        <button class="btn" id="add-lift-btn">Add Lift</button>
+        <button class="btn" id="remove-lift-btn">Remove Lift</button>
+    </header>
+
+    <div class="floor top" data-floor="3">
+        <div class="floor-btn-container">
+            <div class="floor-btn" id="up-btn">Up</div>
+            <div class="floor-btn" id="down-btn">Down</div>
+          </div>
+    </div>
+    <div class="floor"  data-floor="2">
+        <div class="floor-btn-container">
+            <div class="floor-btn" id="up-btn">Up</div>
+            <div class="floor-btn" id="down-btn">Down</div>
+          </div>
+    </div>
+    <div class="floor" data-floor="1">
+        <div class="floor-btn-container">
+            <div class="floor-btn" id="up-btn">Up</div>
+            <div class="floor-btn" id="down-btn">Down</div>
+          </div>
+    </div>
+    <div class="floor ground" data-floor="0">
+        <div class="floor-btn-container">
+            <div class="floor-btn" id="up-btn">Up</div>
+            <div class="floor-btn" id="down-btn">Down</div>
+
+            <div class="lift" data-lift="1"></div>
+          </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
